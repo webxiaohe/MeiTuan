@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box; }
+  
+  body {
+    font-size: .14rem;
+    position: absolute;
+    color: #333;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  #app {
+    width: 100%;
+    height: 100%;
+    background: #f0efed; 
+    font-family: 'Avenir', Helvetica, Arial, sans-serif; }
+    #subject{
+      width: 100%;
+      height: 100%;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+    }

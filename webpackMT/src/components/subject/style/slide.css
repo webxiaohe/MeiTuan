@@ -1,0 +1,30 @@
+.slide-wrap {
+    background: #fff;
+    height: 1.78rem;
+    width: 100%; }
+    .slide-wrap .swiper-cont {
+      width: 100%;
+      padding-bottom: 0.2rem; }
+      .slide-wrap .swiper-cont .list {
+        width: 100%;
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap; }
+        .slide-wrap .swiper-cont .list > li {
+          width: 20%;
+          display: -webkit-flex;
+          -webkit-flex-direction: column;
+          align-items: center;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem; }
+          .slide-wrap .swiper-cont .list > li > i {
+            width: 0.4rem;
+            height: 0.4rem;
+            font-size: 0.25rem;
+            display: block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 0.4rem;
+            color: #fff;
+            margin-bottom: 0.05rem; }
+          .slide-wrap .swiper-cont .list > li > span {
+            font-size: 0.12rem; }

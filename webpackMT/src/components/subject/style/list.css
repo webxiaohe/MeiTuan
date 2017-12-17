@@ -1,0 +1,72 @@
+.list-wrap {
+    background: #fff;
+    padding-left: 0.1rem;
+    width: 100%; }
+    .list-wrap .title {
+      font-size: 0.15rem;
+      padding-bottom: 0.1rem;
+      padding-top: 0.1rem;
+      color: #333;
+      border-bottom: 1px solid #DDD8CE; }
+    .list-wrap .foot-list {
+      width: 100%; }
+      .list-wrap .foot-list dl {
+        display: -webkit-flex;
+        border-bottom: 1px solid #DDD8CE;
+        padding-top: 0.14rem;
+        padding-bottom: 0.14rem;
+        padding-right: 0.1rem; }
+        .list-wrap .foot-list dl dt {
+          width: 0.9rem;
+          height: 0.82rem; }
+        .list-wrap .foot-list dl dt a{
+          display: block;
+          width: 0.9rem;
+          height: 0.82rem; }
+          .list-wrap .foot-list dl dt img {
+            width: 100%;
+            height: 100%; }
+        .list-wrap .foot-list dl dd {
+          padding-left: 0.1rem;
+          flex: 1;
+          position: relative; }
+          .list-wrap .foot-list dl dd .top {
+            padding-top: 0.05rem;
+            margin-bottom: 0.06rem;
+            font-size: 0.1rem;
+            font-weight: 400;
+            color: #3b3d3e; }
+          .list-wrap .foot-list dl dd .single-line {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          .list-wrap .foot-list dl dd .center {
+            font-size: 0.12rem;
+            height: 0.34rem;
+            margin-bottom: 0.08rem;
+            color: #666;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden; }
+          .list-wrap .foot-list dl dd .price {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            color: #666; }
+            .list-wrap .foot-list dl dd .price .strong {
+              font-size: 0.18rem;
+              color: #06c1ae; }
+            .list-wrap .foot-list dl dd .price .strong-color {
+              font-size: 0.13rem;
+              color: #06c1ae; }
+            .list-wrap .foot-list dl dd .price del {
+              font-size: 0.12rem;
+              vertical-align: sub;
+              text-decoration: none; }
+            .list-wrap .foot-list dl dd .price .line-right {
+              position: absolute;
+              top: 0.02rem;
+              right: 0.1rem;
+              font-size: 0.12rem; }
